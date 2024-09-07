@@ -1,6 +1,5 @@
 name: Release
 
-
 on:
   push:
     tags:
@@ -119,4 +118,3 @@ jobs:
             README.txt
             checksum.txt
             ./target/wasm32-unknown-unknown/release/*.wasm
-
